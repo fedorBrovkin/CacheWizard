@@ -134,4 +134,10 @@ public class WizardFileManager {
         }
         return true;
     }
+    public String getCachePathName(){
+       return cacheDirectory.getFileName().toString();
+    }
+    public String getTargetPathName(){
+        return targetDirectory.getFileName().toString();
+    }
 }
